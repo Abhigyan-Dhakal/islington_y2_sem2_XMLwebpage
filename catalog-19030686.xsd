@@ -1,0 +1,136 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="musicStore">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="store_details">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="store_name" type="xs:string" />
+							<xs:element name="store_address">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="street" type="xs:string" />
+										<xs:element name="city" type="xs:string" />
+										<xs:element name="province" type="xs:integer" />
+										<xs:element name="country" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="contact">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="telephone_number" type="xs:string" />
+										<xs:element name="mobile_number" type="xs:string" minOccurs="0" maxOccurs="1" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="store_web_address" type="xs:string" />
+							<xs:element name="store_logo">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="img">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="src" />
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="inventory">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="song" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="album_cover">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="img">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:string" name="class" use="optional" />
+																	<xs:attribute type="xs:string" name="src" use="optional" />
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="name" type="xs:string" />
+										<xs:element name="performed_by" type="xs:string" />
+										<xs:element name="length" type="xs:string" />
+										<xs:element name="genre" type="xs:string" />
+										<xs:element name="album_title" type="xs:string" />
+										<xs:element name="featuring" minOccurs="0" maxOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="feature_name" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+												</xs:sequence>
+												<xs:attribute name="featuring_type" use="required" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="written_by" type="xs:string" />
+										<xs:element name="produced_by" type="xs:string" />
+										<xs:element name="record_label" type="xs:string" />
+										<xs:element name="released_date" type="xs:date" />
+										<xs:element name="lyrics" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="a">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:string" name="href" use="optional" />
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="music_video" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="a">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:string" name="href" use="optional" />
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="bpm" use="optional" type="xs:nonNegativeInteger" />
+									<xs:attribute name="key" use="optional" type="xs:string" />
+									<xs:attribute name="release_type" use="required" type="xs:string" />
+									<xs:attribute name="streams" use="required" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sources">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="source_heading" type="xs:string" />
+							<xs:element name="source" minOccurs="0" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

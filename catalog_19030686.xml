@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE musicStore SYSTEM "catalog_19030686.dtd">
+
+<?xml-stylesheet href="catalog_19030686.css" type="text/css"?>
+
+<musicStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml" xsi:noNamespaceSchemaLocation="./catalog-19030686.xsd">
+  <store_details>
+    <store_name>Reverb Nation</store_name>
+    <store_address>
+      <street>New Baneshwor, </street>
+      <city>Kathmandu, </city>
+      <province>3</province>
+      <country>, Nepal</country>
+    </store_address>
+    <contact>
+      <telephone_number>Phone No: 01-4482333, </telephone_number>
+      <mobile_number>Mobile No: 9841234567</mobile_number>
+    </contact>
+    <store_web_address>Website: store.reverbnation.com</store_web_address>
+    <store_logo>
+      <img class="logo_class" src="./images/storeLogo.png"></img>
+    </store_logo>
+  </store_details>
+  <inventory>
+    <song bpm="80" key="C Major" release_type="Single" streams="20,900,000">
+      <album_cover>
+        <img class="record_image" src="./images/seeYouAgainCover.jpeg"></img>
+      </album_cover>
+      <name>See You Again</name>
+      <performed_by>Wiz Khalifa, Charlie Puth</performed_by>
+      <length>3:50</length>
+      <genre>Genre: Hip-Hop</genre>
+      <featuring featuring_type="vocal">
+        <feature_name>Feature: Charlie Puth</feature_name>
+      </featuring>
+      <written_by>Written By: Andrew Cedar, Cameron Thomaz, Charlie Puth, Dann Hume, Joshua Karl</written_by>
+      <produced_by>Produced By: Andrew Cedar, Charlie Puth, Franke, Kevin Weaver, Mike Caren</produced_by>
+      <record_label>Record: Atlantic Records</record_label>
+      <released_date>2015-03-10</released_date>
+      <lyrics>
+        <a href="https://www.azlyrics.com/lyrics/wizkhalifa/seeyouagain.html">Link For Lyrics</a>
+      </lyrics>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=RgKAFK5djSk">Link For Music Video</a>
+      </music_video>
+    </song>
+    <song bpm="92" key="G# Minor" release_type="Album" streams="249,000">
+      <album_cover>
+        <img class="record_image" src="./images/imDangerousCover.jpg"></img>
+      </album_cover>
+      <name>I'm Dangerous</name>
+      <performed_by>The Everlove</performed_by>
+      <length>4:03</length>
+      <genre>Genre: Rock</genre>
+      <album_title>Album: Walk Through Fire</album_title>
+      <written_by>Written By: Ryan Keaton, Matt Thomas</written_by>
+      <produced_by>Produced By: Ryan Keaton, Stanley Trutsi, Tom Holler</produced_by>
+      <record_label>Record: BMG Production Music</record_label>
+      <released_date>2018-12-01</released_date>
+      <lyrics>
+        <a href="https://genius.com/The-everlove-im-dangerous-lyrics">Link For Lyrics</a>
+      </lyrics>
+    </song>
+    <song bpm="128" key="F Minor" release_type="Single" streams="10,500,000">
+      <album_cover>
+        <img class="record_image" src="./images/animalsCover.jpg"></img>
+      </album_cover>
+      <name>Animals</name>
+      <performed_by>Martin Garrix</performed_by>
+      <length>5:04</length>
+      <genre>Genre: EDM</genre>
+      <written_by>Written By: Martijn Garritsen</written_by>
+      <produced_by>Produced By: Martin Garrix</produced_by>
+      <record_label>Record: Spinnin' Records</record_label>
+      <released_date>2013-06-17</released_date>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=gCYcHz2k5x0">Link For Music Video</a>
+      </music_video>
+    </song>
+    <song bpm="92" key="E Major" release_type="Album" streams="1,000,000">
+      <album_cover>
+        <img class="record_image" src="./images/differentWorldCover.png"></img>
+      </album_cover>
+      <name>Lost Control</name>
+      <performed_by>Alan Walker, Sorana</performed_by>
+      <length>3:42</length>
+      <genre>Genre: Dance/Electronic</genre>
+      <album_title>Album: Different World</album_title>
+      <written_by>Written By: Alan Walker, Anders Froen, Thomas Troelsen</written_by>
+      <produced_by>Produced By: Alan Walker, Mood Melodies</produced_by>
+      <record_label>Record: Ultra Music</record_label>
+      <released_date>2018-12-14</released_date>
+      <lyrics>
+        <a href="https://www.azlyrics.com/lyrics/alanwalker/lostcontrol.html">Link For Lyrics</a>
+      </lyrics>
+    </song>
+    <song bpm="144" key="B" release_type="Album" streams="800,000">
+      <album_cover>
+        <img class="record_image" src="./images/narratedForYouCover.jpg"></img>
+      </album_cover>
+      <name>Boy In The Bubble</name>
+      <performed_by>Alec Benjamin</performed_by>
+      <length>3:02</length>
+      <genre>Genre: Pop</genre>
+      <album_title>Album: Narrated For You</album_title>
+      <written_by>Written by: Alec Benjamin</written_by>
+      <produced_by>Produced By: Alec Benjamin</produced_by>
+      <record_label>Record: Atlantic Records</record_label>
+      <released_date>2018-06-22</released_date>
+      <lyrics>
+        <a href="https://www.azlyrics.com/lyrics/alecbenjamin/theboyinthebubble.html">Link For Lyrics</a>
+      </lyrics>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=8WvKFL_LIB8">Link For Music Video</a>
+      </music_video>
+    </song>
+    <song bpm="126" key="G# Minor" release_type="Single" streams="500,000">
+      <album_cover>
+        <img class="record_image" src="./images/waitAnotherDayCover.jpg"></img>
+      </album_cover>
+      <name>Wait Another Day</name>
+      <performed_by>Mike Williams, Mesto</performed_by>
+      <length>2:59</length>
+      <genre>Genre: Dance/Electronic</genre>
+      <written_by>Written By: M. Stomp, M. Willemsen</written_by>
+      <produced_by>Produced By: Mesto, Mike Williams</produced_by>
+      <record_label>Record: Spinnin' Records</record_label>
+      <released_date>2018-12-21</released_date>
+      <lyrics>
+        <a href="https://www.azlyrics.com/lyrics/mikewilliams/waitanotherday.html">Link For Lyrics</a>
+      </lyrics>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=n18g4bRJDCY">Link For Music Video</a>
+      </music_video>
+    </song>
+    <song bpm="145" key="E Major" release_type="Single" streams="129,000">
+      <album_cover>
+        <img class="record_image" src="./images/onMyOwnCover.jfif"></img>
+      </album_cover>
+      <name>On My Own</name>
+      <performed_by>Far Out, Karra</performed_by>
+      <length>4:30</length>
+      <genre>Genre: Dance/Electronic</genre>
+      <written_by>Written By: Kara Madden, Martin Giuffre, Michael Fennessey, Reid Strfanick</written_by>
+      <produced_by>Produced By: Far Out</produced_by>
+      <record_label>Record: Lowly Palace LLC</record_label>
+      <released_date>2018-06-28</released_date>
+      <lyrics>
+        <a href="https://genius.com/Far-out-on-my-own-lyrics">Link For Lyrics</a>
+      </lyrics>
+    </song>
+    <song bpm="150" key="C#" release_type="Album" streams="2,200,000">
+      <album_cover>
+        <img class="record_image" src="./images/narratedForYouCover.jpg"></img>
+      </album_cover>
+      <name>Let Me Down Slowly</name>
+      <performed_by>Alec Benjamin</performed_by>
+      <length>2:49</length>
+      <genre>Genre: Pop</genre>
+      <album_title>Album: Narrated For You</album_title>
+      <written_by>Written By: Michael Pollack, Nolan Lambroza, Nolan Lambroza, Alec Benjamin</written_by>
+      <produced_by>Produced By: Nolan Lambroza</produced_by>
+      <record_label>Record: Atlantic Records</record_label>
+      <released_date>2018-05-27</released_date>
+      <lyrics>
+        <a href="https://www.azlyrics.com/lyrics/alecbenjamin/letmedownslowly.html">Link For Lyrics</a>
+      </lyrics>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=50VNCymT-Cs">Link For Music Video</a>
+      </music_video>
+    </song>
+    <song bpm="107" key="B Minor" release_type="Album" streams="450,000">
+      <album_cover>
+        <img class="record_image" src="./images/goatCover.jpg"></img>
+      </album_cover>
+      <name>G.O.A.T</name>
+      <performed_by>Polyphia</performed_by>
+      <length>3:35</length>
+      <genre>Genre: Trap Rock</genre>
+      <album_title>Album: New Levels New Devils</album_title>
+      <written_by>Written By: Tim Henson, Y2k, Clay Gober</written_by>
+      <produced_by>Produced By: Y2K, Judge</produced_by>
+      <record_label>Record: Equal Vision Records</record_label>
+      <released_date>2017-05-24</released_date>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=9_gkpYORQLU">Link For Music Video</a>
+      </music_video>
+    </song>
+    <song bpm="116" key="A Minor" release_type="Album" streams="5,540,000">
+      <album_cover>
+        <img class="record_image" src="./images/californicationCover.jpg"></img>
+      </album_cover>
+      <name>Californication</name>
+      <performed_by>Red Hot Chili Peppers</performed_by>
+      <length>5:30</length>
+      <genre>Genre: Indie</genre>
+      <album_title>Album: Californication</album_title>
+      <written_by>Written By: Anthony Keidis, Chad Smith, Flea, John Frusciante</written_by>
+      <produced_by>Produced By: Rick Rubin</produced_by>
+      <record_label>Record: Warner Records</record_label>
+      <released_date>1999-06-08</released_date>
+      <lyrics>
+        <a href="https://www.azlyrics.com/lyrics/redhotchilipeppers/californication.html">Link For Lyrics</a>
+      </lyrics>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=YlUKcNNmywk">Link For Music Video</a>
+      </music_video>
+    </song>
+    <song bpm="63" key="A Minor" release_type="Album" streams="9,890,000">
+      <album_cover>
+        <img class="record_image" src="./images/stairwayToHeavenCover.jpg"></img>
+      </album_cover>
+      <name>Stairway To Heaven</name>
+      <performed_by>Led Zeppelin</performed_by>
+      <length>8:02</length>
+      <genre>Genre: Progressive Rock</genre>
+      <album_title>Album: Led Zeppelin IV</album_title>
+      <written_by>Written By: Jimmy Page, Robert Plant</written_by>
+      <produced_by>Produced By: Jimmy Page</produced_by>
+      <record_label>Record: Atlantic Records</record_label>
+      <released_date>1971-03-22</released_date>
+      <lyrics>
+        <a href="https://www.azlyrics.com/lyrics/ledzeppelin/stairwaytoheaven.html">Link For Lyrics</a>
+      </lyrics>
+    </song>
+    <song bpm="167" key="G#/Ab" release_type="Album" streams="7,000,000">
+      <album_cover>
+        <img class="record_image" src="./images/americanIdiotCover.jpg"></img>
+      </album_cover>
+      <name>Bouleverd Of Broken Dreams</name>
+      <performed_by>Green Day</performed_by>
+      <length>4:22</length>
+      <genre>Genre: Indie</genre>
+      <album_title>Album: American Idiot</album_title>
+      <written_by>Written By: Billie Joe Armstrong, Tre Cool, Mike Dirnt</written_by>
+      <produced_by>Produced By: Billie Joe Armstrong, Mike Dirnt, Rob Cavallo</produced_by>
+      <record_label>Record: Reprise</record_label>
+      <released_date>2004-11-29</released_date>
+      <lyrics>
+        <a href="https://www.azlyrics.com/lyrics/greenday/boulevardofbrokendreams.html">Link For Lyrics</a>
+      </lyrics>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=Soa3gO7tL-c">Link For Music Video</a>
+      </music_video>
+    </song>
+    <song bpm="140" key="B Minor" release_type="Album" streams="8,230,000">
+      <album_cover>
+        <img class="record_image" src="./images/radioactiveCover.jpeg"></img>
+      </album_cover>
+      <name>Radioactive</name>
+      <performed_by>Imagine Dragons</performed_by>
+      <length>4:30</length>
+      <genre>Genre: Alternative Rock</genre>
+      <album_title>Album: Night Visions</album_title>
+      <written_by>Written By: A. Grant, Ben McKee, Wayne Sermon</written_by>
+      <produced_by>Produced By: Alex Da Kid</produced_by>
+      <record_label>Record: Interscope</record_label>
+      <released_date>2012-10-29</released_date>
+      <lyrics>
+        <a href="https://www.azlyrics.com/lyrics/imaginedragons/radioactive.html">Link For Lyrics</a>
+      </lyrics>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=ktvTqknDobU">Link For Music Video</a>
+      </music_video>
+    </song>
+    <song bpm="113" key="Ab Major" release_type="Album" streams="12,000,000">
+      <album_cover>
+        <img class="record_image" src="./images/nggyuCover.png"></img>
+      </album_cover>
+      <name>Never Gonna Give You Up</name>
+      <performed_by>Rick Astley</performed_by>
+      <length>3:34</length>
+      <genre>Genre: Blue-eyed soul</genre>
+      <album_title>Album: Whenever You Need Somebody</album_title>
+      <written_by>Written By: Matt Aitken, Rick Astley, Mike Stock, Pete Waterman</written_by>
+      <produced_by>Produced By: Matt Aitken, Mike Stock, Pete Waterman</produced_by>
+      <record_label>Record: BMG Rights Management(UK) Ltd</record_label>
+      <released_date>1987-07-27</released_date>
+      <lyrics>
+        <a href="https://www.azlyrics.com/lyrics/rickastley/nevergonnagiveyouup.html">Link For Lyrics</a>
+      </lyrics>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Link For Music Video</a>
+      </music_video>
+    </song>
+    <song bpm="125" key="D Minor" release_type="Single" streams="563,000">
+      <album_cover>
+        <img class="record_image" src="./images/crabRaveCover.jpeg"></img>
+      </album_cover>
+      <name>Crab Rave</name>
+      <performed_by>Noisestorm</performed_by>
+      <length>2:41</length>
+      <genre>Genre: EDM</genre>
+      <written_by>Written By: Eoin Marc O'Broin</written_by>
+      <produced_by>Produced By: Noisestorm</produced_by>
+      <record_label>Record: Monstercat</record_label>
+      <released_date>2018-04-01</released_date>
+      <music_video>
+        <a href="https://www.youtube.com/watch?v=LDU_Txk06tM">Link For Music Video</a>
+      </music_video>
+    </song>
+  </inventory>
+  <sources>
+    <source_heading>All the information and details were fetched from the following sources:</source_heading>
+    <source>Spotify</source>
+    <source>Genius</source>
+    <source>Azlyrics</source>
+    <source>Songbpm</source>
+  </sources>
+</musicStore>

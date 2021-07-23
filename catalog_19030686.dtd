@@ -1,0 +1,51 @@
+<!ELEMENT musicStore (store_details,inventory,sources)>
+<!ATTLIST musicStore
+  xmlns:xsi CDATA #REQUIRED
+  xsi:noNamespaceSchemaLocation CDATA #REQUIRED
+  xmlns CDATA #REQUIRED
+>
+<!ELEMENT store_details (store_name,store_address,contact,store_web_address,store_logo)>
+<!ELEMENT store_name (#PCDATA)>
+<!ELEMENT store_address (street, city, province, country)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT province (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT contact (telephone_number,mobile_number?)>
+<!ELEMENT telephone_number (#PCDATA)>
+<!ELEMENT mobile_number (#PCDATA)>
+<!ELEMENT store_web_address (#PCDATA)>
+<!ELEMENT store_logo (img)>
+<!ELEMENT inventory (song+)>
+<!ELEMENT song (album_cover,name,performed_by,length,genre,album_title?,featuring?,written_by,produced_by,record_label,released_date,lyrics?,music_video?)>
+<!ATTLIST song
+  bpm CDATA #IMPLIED
+  key CDATA #IMPLIED
+  release_type CDATA #REQUIRED
+  streams CDATA #REQUIRED
+>
+<!ELEMENT album_cover (img)>
+<!ELEMENT img (#PCDATA)>
+<!ATTLIST img
+  src CDATA #REQUIRED
+  class CDATA #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT performed_by (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT album_title (#PCDATA)>
+<!ELEMENT featuring (feature_name+)>
+<!ATTLIST featuring featuring_type CDATA #REQUIRED>
+<!ELEMENT feature_name (#PCDATA)>
+<!ELEMENT written_by (#PCDATA)>
+<!ELEMENT produced_by (#PCDATA)>
+<!ELEMENT record_label (#PCDATA)>
+<!ELEMENT released_date (#PCDATA)>
+<!ELEMENT lyrics (a)>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a href CDATA #REQUIRED>
+<!ELEMENT music_video (a)>
+<!ELEMENT sources (source_heading,source+)>
+<!ELEMENT source_heading (#PCDATA)>
+<!ELEMENT source (#PCDATA)>

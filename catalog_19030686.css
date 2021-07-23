@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+}
+
+musicStore {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./images/vinylRecord.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+store_details {
+  padding: 100px 0px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  color: white;
+}
+
+store_address,
+contact,
+store_web_address {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+store_name {
+  font-family: "Bebas Neue", cursive;
+}
+
+inventory {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+song {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(7px);
+  border-top: 1px solid rgb(31, 31, 31);
+  border-left: 1px solid rgb(41, 41, 41);
+  box-shadow: 0px 0px 20px 20px rgb(0, 0, 0, 0.5);
+  color: black;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+name {
+  font-size: 32px;
+  padding: 30px 0px 0px 0px;
+  margin-bottom: 8px;
+}
+
+performed_by {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: rgb(199, 199, 199);
+}
+
+length {
+  font-size: 12px;
+  color: rgb(252, 252, 252);
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 3px solid rgb(104, 104, 104);
+}
+
+genre,
+album_title,
+featuring,
+written_by,
+produced_by,
+record_label,
+released_date,
+music_video {
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(224, 224, 224);
+}
+
+record_label {
+  margin-bottom: 70px;
+}
+
+lyrics a {
+  color: rgb(86, 173, 231);
+  font-size: 12px;
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: color 0.1s ease;
+  text-decoration: none;
+}
+
+lyrics a:hover {
+  color: rgb(41, 123, 182);
+}
+
+music_video a {
+  color: rgb(235, 85, 59);
+  font-size: 12px;
+  position: absolute;
+  bottom: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: color 0.1s ease;
+  text-decoration: none;
+}
+
+music_video a:hover {
+  color: rgb(228, 28, 28);
+}
+
+released_date {
+  position: absolute;
+  bottom: 15px;
+  color: rgb(170, 170, 170);
+}
+
+store_name {
+  font-size: 48px;
+}
+
+.logo_class {
+  height: 150px;
+  width: 150px;
+}
+
+.record_image {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 5px solid #444444;
+  box-shadow: 0px 0px 20px 10px rgba(17, 17, 17, 0.5);
+}
+
+sources {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(7px);
+  border-top: 1px solid rgb(31, 31, 31);
+  border-left: 1px solid rgb(41, 41, 41);
+  box-shadow: 0px 0px 20px 20px rgb(0, 0, 0, 0.5);
+  color: black;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+source {
+  color: white;
+  display: list-item;
+  text-align: center;
+  padding: 10px;
+}
+
+source_heading {
+  color: white;
+  text-align: center;
+}
